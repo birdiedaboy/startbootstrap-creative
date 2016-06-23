@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Doble Erre Continentales</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -31,6 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href="carousel.css" rel="stylesheet">
 
 </head>
 
@@ -46,23 +47,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Doble Erre Continentales</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Nuestros Productos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">Calidad y Confianza</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Clientes</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#infra">Infraestructura</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -74,10 +78,18 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Your Favorite Source of Free Bootstrap Themes</h1>
-                <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <img class="img-responsive img-rounded center-block" id="logo" src="img/Logo_RR.png">
+                
+                <hr class="light">
+                <div class="fondohead">
+                <p class="shadow">
+                    Doble Erre Continentales S.A. de C.V., es una empresa de origen nacional, importadora y comercializadora de combustibles, que a raíz de la reforma energética encuentra un área de oportunidad para abastecer al país de hidrocarburos amigables con el medio ambiente y de la más alta calidad.
+                </p>
+                <p class="shadow">
+                    En Doble Erre, adoptamos una filosofía de negocio que está basada en los principios del desarrollo sustentable. De ésta manera, logramos que nuestros clientes, además de aprovechar los beneficios económicos que aportan nuestros productos, tomen conciencia sobre la importancia en el uso de combustibles de alta calidad para el bien de sus motores, nuestra comunidad y el medio ambiente.
+                </p>
+                    </div>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll espacio">Conoce Nuestros Productos</a>
             </div>
         </div>
     </header>
@@ -85,22 +97,59 @@
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h1 class="section-heading negro">Nuestros Productos</h1>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl">Get Started!</a>
+                    <p class="text-faded shadow">
+                        Doble Erre facilita el cumplimiento de la demanda de combustibles con una variedad de alternativas. Ofrecemos mezclas de biodiésel, así como diferentes tipos diéseles minerales  en diferentes terminales ubicadas estratégicamente en el norte y centro del país. Mientras su negocio crece, usted puede obtener los combustibles que se ajusten a sus necesidades, de un sólo proveedor.
+                    </p>
+                </div>    
+            
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-envira wow bounceIn verde"></i>
+                        <h3 class="negro bold">Mezclas de Biodiésel de Soya con Diésel Ultra Bajo en Azufre</h3>
+                        <p class="text-muted">Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="service-box">
+                        <span class="glyphicon glyphicon-oil fa-4x negro "></span>
+                        <h3>Diésel Ultra Bajo en Azufre (máx. 15 ppm)</h3>
+                        <p class="text-muted">Combustible petrolífero más limpio que el diésel común, por bajo contenido de azufre (máx. 15 ppm). 97% menor contenido de azufre que el Diésel PEMEX (500 ppm) Reducción de desgaste en: Cámara de combustión Guías de pistones Camisas de cilindros Reducción de emisión de SOx En Estados Unidos, desde el 2010 es obligatorio por ley que todo el diésel sea UBA.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-tint wow bounceIn negro" data-wow-delay=".2s"></i>
+                        <h3>Diésel Marino</h3>
+                        <p class="text-muted">Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Diésel Bajo en Azufre (máx. 500 ppm)</h3>
+                        <p class="text-muted">You have to make your websites with love these daysCurabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod</p>
+                    </div>
+                </div>
                 </div>
             </div>
-        </div>
+        
+        
     </section>
 
     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Calidad y Confianza</h2>
                     <hr class="primary">
+                    <p>La calidad es uno de nuestros principales diferenciadores en el mercado, debido a los estrictos estándares de calidad ASTM (American Society for Testing Materials) a los que están sujetos nuestros productos. El cumplimiento de los estándares ASTM no son requisito legal para los combustibles de producción nacional.
+                    </p>
+                    <p>
+                        La calidad de nuestro biodiésel está regulado por la certificación BQ-9000, equivalente al ISO-9000 para la industria del Biodiésel en EUA. Dicha certificación avala la calidad del biodiésel, por lo que las principales problemáticas conocidas en este producto (gelatinización en climas fríos y formación de sólidos) se vuelven despreciables.</p>
+
                 </div>
             </div>
         </div>
@@ -137,8 +186,15 @@
             </div>
         </div>
     </section>
-
+    
     <section class="no-padding" id="portfolio">
+        <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Nuestros Clientes</h2>
+            </div>
+        </div>
+    </aside>
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
@@ -236,30 +292,120 @@
     </section>
 
     <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
+
+    </aside>
+<section id="infra">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h1 class="section-heading">Terminales de Almacenamiento</h1>
+                    <hr class="primary">
+                    <p>Contamos con instalaciones de almacenamiento a disposición en zonas estratégicas del país como Monterrey, Nuevo León; Guadalajara, Jalisco y México (Xalostoc, Edo de Mex) de esta manera simplificamos y optimizamos la logistica de nuestro clientes.</p>
+                </div>
+            </div>
+            
+        </div>
+    <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-4">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/mty.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Monterrey
+                                </div>
+                                <div class="project-name">
+                                    Nuevo Léon
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/df.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Ciudad de México
+                                </div>
+                                <div class="project-name">
+                                    Ciudad de México
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/gdl.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Guadalajara
+                                </div>
+                                <div class="project-name">
+                                    Jalisco
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </aside>
-
+    
+    </section>
+  
+    
+    
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h1 class="section-heading">Contactanos</h1>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>MONTERREY</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+                <div class="col-lg-12  text-center">
+                    <i class="fa fa-home fa-3x wow bounceIn"></i>
+                    <p>
+                        Ricardo Margáin 335 Piso 4 
+                        <br>
+                        Valle del Campestre
+                        <br>
+                        San Pedro Garza Garcia N.L. 66265
+                    </p>
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
+                    <p>+52 (81) 80 00 56 56</p>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.3987743563575!2d-100.35485778425698!3d25.658072483683863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bde31d170ceb%3A0x8e07cb99a08b1f2c!2sRicardo+Margain+Zozaya+335%2C+Santa+Engracia%2C+66267+San+Pedro+Garza+Garc%C3%ADa%2C+N.L.!5e0!3m2!1sen!2smx!4v1459200724984" width="80%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-12 col-lg-offset- text-center">
+                    <hr class="primary">
+                    <p>CIUDAD DE MEXICO</p>
+                    <div class="col-lg-12  text-center">
+                    <i class="fa fa-home fa-3x wow bounceIn"></i>
+                    <p>
+                        Mariano Escobedo 510
+                        <br>
+                        Col. Anzures
+                        <br>
+                        México, D.F 11590
+                    </p>
+                        <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>+52 (55) 47 37 10 57</p>
+                </div>
+                    <div class="col-lg-12 text-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.549132882613!2d-99.18323064938438!3d19.43187718682037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8ad2f6da0f7%3A0x8103710ec63f963a!2sCalz.+Gral.+Mariano+Escobedo+510%2C+Anzures%2C+11590+Ciudad+de+M%C3%A9xico%2C+D.F.!5e0!3m2!1sen!2smx!4v1466618196080" width="80%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">info@biofuel.mx</a></p>
                 </div>
+                
             </div>
         </div>
     </section>
