@@ -430,6 +430,9 @@ body {
 .bold{
     font-weight: 650;
 }
+.bg-black {
+  background-color: #FECC40;
+}
 
 article {
   position: relative;
@@ -440,7 +443,10 @@ article {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/tk.jpg');
+  background-image: url('../img/tkb2.jpg');
+   background-color: rgba(51,204,255,1.00);
+	background-image: 
+		linear-gradient(221deg, rgba(0,0,0,1.00) 0%, rgba(60,58,58,1.00) 100%);
   text-align: center;
   color: white;
 }
